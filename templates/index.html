@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="en"> 
+<head> <!-- head / informacion para que muestre correctamente el sitio web -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNACH</title>
+   
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- carga el sitio web mas rapido -->
+    <link rel="preload" href="../static/styles.css" as="style">
+    <!-- stulesheet / relacion con el documento actual -->
+    <link rel="stylesheet" href="../static/styles.css""> <!-- Cargar una hoja de estilo -->
+
+    <!-- 
+    <style> /* No recomendado */
+        h1{
+            text-align: center; /* Centrar el texto xd */
+            color: red;
+            text-transform: uppercase; /* Convertir a mayuscula */
+        }
+    </style> -->
+</head>
+
+<body> <!-- body / informacion que muestra a los usuarios que visiten el sitio  -->
+    <header class="header"> <!-- Etiqueta header para la Parte Superior-->
+        <img src="../static/images.jpeg" alt="">
+        <h1 class="titulo">UNIVERSIDAD AUTONOMA DE CHIAPAS</span> </h1>
+    </header>
+
+
+
+    <section class="izquierda">
+
+        <div class="izquierda-im">
+            <img src="../static/tea.webp" alt="">
+        </div>
+
+        <form action="" class="formulario">
+            <fieldset> <!-- fieldset   -->
+                <legend>ACCESO</legend> <!--    -->
+                <!-- agrupar los input   -->
+                <div>  
+                    <div class="campo">
+                        <label for="">CORREO UNACH</label>
+                        <input class="input-text" type="email" placeholder="Correo Electronico">
+                    </div>
+                    <div class="campo">  <!-- etiqueta div cuando no aplique a ninguno de los otros -->
+                        <label for="">CONTRASEÑA</label> <!-- compo para dar indicaciones   -->
+                        <input class="input-text" type="text" placeholder="Tu contraseña pai"> <!-- Campo donde se espera escribir   -->
+                    </div>  
+                    
+                </div>
+                
+                <div class="alinear-derecha flex">
+                    <input class="boton w-sm-100" type="submit" value="Enviar">
+                </div>
+            </fieldset>
+        </form>
+    </section>
+   
+
+    
+    <footer> <!-- parte inferior -->
+        <p>Todos los derechos reservados</p>
+    </footer>
+    
+
+</body>
+</html>
